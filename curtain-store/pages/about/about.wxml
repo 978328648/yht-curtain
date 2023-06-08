@@ -1,0 +1,57 @@
+<view class="container">
+    <image class="top" src=""></image>
+    <view class="next2">
+        <view class="sub-container">
+            <view class="next-inner">
+                <text class="label">地址</text>
+                <view class="block"></view>
+                <text class="dis" style="color: #666666">江川区江城镇启文路2号</text>
+            </view>
+            <view class="next-inner">
+                <text class="label">设计师</text>
+                <view class="block"></view>
+                <text class="dis">吴秀青</text>
+            </view>
+            <view class="next-inner">
+                <text class="label">销售范围</text>
+                <view class="block"></view>
+                <text class="dis">布窗帘 百叶帘 罗马帘 柔窗帘 竹窗帘</text>
+            </view>
+            <view class="next-inner">
+                <text class="label">业务范围</text>
+                <view class="block"></view>
+                <text class="dis">批发零售 免费设计安装 承接宾馆 酒店 医院 厂房 办公楼 会议室 会场工程</text>
+            </view>
+        </view>
+    </view>
+    <view class="next3">
+        <view class="one-row">
+            <view class="left-side">
+                <text>联系电话</text>
+                <text>13330582938</text>
+            </view>
+            <view class="right-side">
+                <view bind:tap="onCopyCourse" class="btn">
+                    <text>复</text><text>制</text>
+                </view>
+            </view>
+        </view>
+        <view class="one-row">
+            <view class="left-side">
+                <text>联系邮箱</text>
+                <text>maggieq8324@foxmail.com</text>
+            </view>
+            <view class="right-side">
+                <view bind:tap="onCopyGit" class="btn">
+                    <text>复</text><text>制</text>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="next4">
+        <image bind:tap="save" class="wx" src="/imgs/wx.jpg"></image>
+        <text>我的微信：美佳窗帘布艺</text>
+        <text>点击图片长按保存二维码识别</text>
+    </view>
+</view>
