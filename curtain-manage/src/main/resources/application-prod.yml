@@ -1,0 +1,20 @@
+#生产环境配置
+
+spring:
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.a57521.com/curtain?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8
+    username: curtain
+    password: demaxiya789.
+
+# 开启权限拦截
+auth:
+  enabled: true
+
+# 开启请求日志记录
+request-log:
+  enabled: true
+
+
+
